@@ -1,0 +1,86 @@
+                             <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        tbody{
+            font-size: 14px;
+        }
+    </style>
+    <script src="jquery.js"></script>
+</head>
+<body>
+姓名：<input type="text" name="username"> 年龄：<input type="text" name="age"> email: <input type="email" name="email"><button class="btn">添加</button>
+    <table border="1">
+        <tbody>
+        <tr>
+            <td>姓名</td>
+            <td>年龄</td>
+            <td>email</td>
+            <td>操作</td>
+        </tr>
+        </tbody>
+        <dbody class="dbody">
+            <tr>
+                <td><span>张三</span> <input type="text" style="display: none"></td>
+                <td><span>22</span> <input type="text" style="display: none"></td>
+                <td><span>zhangsan@qq.com</span> <input type="text" style="display: none"></td>
+                <td><a href="javascript:;" class="del">删除</a></td>
+            </tr>
+            <tr>
+                <td><span>李四</span> <input type="text" style="display: none"></td>
+                <td><span>33</span> <input type="text" style="display: none"></td>
+                <td><span>lisi@qq.com </span><input type="text" style="display: none"></td>
+                <td><a href="javascript:;" class="del">删除</a></td>
+            </tr>
+        </dbody>
+    </table>
+</body>
+</html>
+<script>
+    $(document).on("click",".btn",function () {
+        //获取姓名
+    var username=   $("[name=username]").val()
+        //获取年龄
+    var age=   $("[name=age]").val()
+        //获取年龄
+    var email=   $("[name=email]").val()
+        //获取dbody
+        //及点及改
+        var str=""
+        str="<tr>"+
+                "<td>"+
+                    "<span>"+username+ "</span>"+
+                    "<input type="+"text"+" style="+"display:"+"none"+">"+
+                "</td>"+
+                "<td>"+
+                    "<span>"+age+"</span>"+
+                    "<input type="+"text"+" style="+"display:"+"none"+">"+
+                "</td>"+
+                "<td>"+
+                    "<span>"+email+"</span>"+
+                    "<input type="+"text"+" style="+"display:"+"none"+">"+
+                "</td>"+
+                "<td>"+
+                    "<a href="+"javascript:;"+" class="+"del"+">"+"删除"+"</a>"+
+                "</td>"+
+            "</tr>";
+        $("table").append(str)
+    })
+    $(document).on("click","span",function () {
+        $(this).hide();
+        var span=$(this).html()
+        console.log(span)
+        $(this).next("input").val( $(this).html()).show()
+        $(document).on("blur","input",function () {
+            $(this).hide()
+            var input=$(this).val()
+            console.log(input)
+            $(this).prev("span").html( $(this).val()).show()
+        })
+    })
+    $(document).on("click",".del",function () {
+        $(this).parents("tr").remove()
+    })
+</script>
