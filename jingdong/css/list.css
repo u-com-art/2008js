@@ -1,0 +1,574 @@
+.w {
+	width: 1210px;
+	margin: 0 auto;
+}
+/*顶部*/
+.top {
+	width: 100%;
+	height: 30px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #000;
+}
+.top .w {
+	height: 30px;
+	/*background-color: #cd4;*/
+}
+/*头部开始*/
+.header {
+	height: 97px;
+	width: 100%;
+}
+.header .w {
+	height: 97px;
+	/*background-color: #f00;*/
+}
+.logo1 {
+	position: relative;
+	float: left;
+	width: 276px;
+	height: 50px;
+	margin: 15px 0 22px;
+}
+.logo1 a {
+	display: block;
+	margin-top: 2px;
+	width: 134px;
+	height: 42px;
+	background: url(../images/jdlogo-201708-@1x.png);
+	text-indent: -9999px;
+}
+.search1 {
+	position: relative;
+	float: left;
+	margin: 27px 30px 0 95px;
+}
+.search1 input {
+	width: 451px;
+	height: 32px;
+	border: 2px solid #F30213;
+	border-right: 0;
+	float: left;
+	padding-left: 3px;
+}
+.search1 span {
+	width: 19px;
+	height: 15px;
+	display: block;
+	float: left;
+	background: url(../images/sprite-photo-search.png);
+	position: absolute;
+	left: 422px;
+	top: 10px;
+}
+.search1 button {
+	float: left;
+	width: 80px;
+	height: 36px;
+	border: 0;
+	background: #F30213;
+	color: #fff;
+	font-size: 16px;
+}
+.settleup {
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #DFDFDF;
+	background-color: #F9F9F9;
+	float: left;
+	margin-top: 27px;
+	position: relative;
+}
+.settleup a {
+	color: #f30213;
+	padding: 0 28px 0 19px
+}
+.settleup i {
+	display: block;
+	position: absolute;
+	left: 90px;
+	top: 9px;
+	color: #f30213;
+	font-size: 16px;
+}
+.settleup span {
+	position: absolute;
+	top: 7px;
+	left: 105px;
+	padding: 1px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #fff;
+	background: #da1026;
+	border-radius: 7px;
+	text-align: center;
+}
+/*头部结束*/
+
+/*导航开始*/
+.nav {
+	width: 100%;
+	height: 33px;
+	border-bottom: 2px solid #F30213;
+}
+.nav .w {
+	height: 33px;
+	position: relative;
+}
+.categorys {
+	float: left;
+	width: 190px;
+	line-height: 33px;
+	background: #f30213;
+	position: absolute;
+	left: 0;
+}
+.categorys .dt {
+	padding: 0 10px;
+	font-size: 14px;
+	position: relative;
+	color: #fff;
+}
+.categorys .dt a {
+	display: block;
+	height: 33px;
+	background: #f30213;
+	color: #fff;
+	text-align: center;
+}
+.navitem1 {
+	padding-left: 190px;
+	position: relative;
+	float: left;
+}
+.navitem1 ul {
+	float: left;
+}
+.navitem1 .spacer {
+	float: left;
+	width: 1px;
+	height: 13px;
+	margin: 10px 0;
+	background: #eee;
+}
+.navitem1 ul li {
+	float: left;
+}
+.navitem1 ul li a {
+	height: 33px;
+	padding: 0 22px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	line-height: 33px;
+	font-weight: bold;
+}
+/*导航结束*/
+
+/*主要内容*/
+.content {}
+.content .w {
+	/*background-color: #f0f;*/
+}
+/*面包屑*/
+.crumbsBar {
+	height: 49px;
+	line-height: 49px;
+	font-size: 12px;
+}
+.crumbsBar a {
+	float: left;
+}
+.crumbsBar i {
+	float: left;
+	margin: 0 5px;
+}
+.crumbsBar .crumbs-nav-item {
+	float: left;
+}
+/*主要部分*/
+.container {
+	
+}
+/*选择*/
+.select {
+	border-top: 1px solid #000;
+	line-height: 34px;
+}
+/*品牌*/
+.select-pinpai {
+	width: auto;
+	height: auto;
+	border-bottom: 1px solid #000;
+	overflow: hidden;
+	background: #f3f3f3;
+	position: relative;
+	line-height: 34px;
+}
+.select-name {
+	width: 100px;
+	padding-left: 10px;
+	font-size: 11px;
+	float: left;
+	white-space: nowrap;
+}
+.select-list {
+	padding-right: 130px;
+	padding-left: 10px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.select-list ul {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.select-list ul li{
+	width: 114px;
+	height: 48px;
+	float: left;
+	border: 1px solid #000;
+	margin: -1px -1px 0 0;
+	text-align: center;
+}
+.select-list ul li a {
+	display: block;
+	width: 114px;
+	height: 48px;
+}
+
+
+/*商品列表*/
+.main {
+	margin-top: 10px;
+}
+/*左侧侧边栏*/
+.m-aside {
+	width: 178px;
+	border: 1px solid #000;
+	height: 500px;
+	float: left;
+}
+/*右侧商品列表*/
+.filter {
+	position: relative;
+	margin-bottom: 5px;
+}
+.m-list {
+	width: 1020px;
+	float: right;
+}
+.m-list-top {
+	height: 37px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-size: 11px;
+	line-height: 37px;
+	background-color: #f1f1f1;
+}
+.m-list-top-left {
+	float: left;
+}
+.m-list-top-left1 ,
+.m-list-top-left2 ,
+.m-list-top-left3 {
+	float: left;
+	margin-right: 12px;
+}
+.m-list-top-left1 a {
+	height: 23px;
+	float: left;
+	border: 1px solid #000;
+	margin-top: 6px;
+	line-height: 23px;
+	padding: 0 0 0 8px;
+	margin-right: -1px;
+	background-color: #fff;
+}
+.m-list-top-left1 a em {
+	width: 7px;
+	height: 11px;
+	float: right;
+	background: url(../img/sprite-arrow.png) no-repeat 0 -100px;
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 9px;
+}
+.m-list-top-left2 span {
+	width: 13px;
+	height: 23px;
+	border: 1px solid #000;
+	background-color: #fff;
+	float: left;
+	margin-top: 6px;
+	margin-left: -1px;
+	position: relative;
+}
+.m-list-top-left2 span a {
+	height: 15px;
+	width: 13px;
+	background-color: #00f;
+	display: block;
+	border: 1px solid #f00;
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+}
+.m-list-top-left3 input {
+	width: 58px;
+	height: 23px;
+	border: 1px solid #000;
+	color: #f00;
+}
+.m-list-top-right {
+	float: right;
+}
+
+.m-list-line {
+	height: 25px;
+	padding: 6px 8px;
+	border-bottom: 1px solid #e7e3e7;
+	background: #f9f9f9;
+}
+.m-list-line .store {
+	float: left;
+	padding-left: 5px;
+}
+.m-list-line .store .cell {
+	float: left;
+	line-height: 25px;
+	margin-right: 5px;
+	color: #999;
+}
+.m-list-line .store .store_selector {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	height: 26px;
+}
+.m-list-line .store .store_selector .store_selector-txt {
+	float: left;
+	position: relative;
+	top: 0;
+	height: 23px;
+	background: #fff;
+	border: 1px solid #cecbce;
+	padding: 0 24px 0 4px;
+	line-height: 23px;
+	overflow: hidden;
+}
+.m-list-line .store .store_selector .store_selector-txt .area-txt {
+	overflow: hidden;
+}
+.m-list-line .store .store_selector .store_selector-txt b {
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 4px;
+	width: 17px;
+	height: 17px;
+	background: url(../img/59088392N8b6279bb.png) no-repeat;
+	line-height: 23px;
+}
+.m-list-line .store .feature {
+	float: left;
+	position: relative;
+	height: 25px;
+	overflow: hidden;
+}
+.m-list-line .store .feature ul li {
+	float: left;
+	height: 25px;
+	line-height: 25px;
+}
+.m-list-line .store .feature ul li a {
+	padding-right: 5px;
+	position: relative;
+	display: inline-block;
+	padding-left: 18px;
+	color: #333;
+}
+.m-list-line .store .feature ul li a i {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	background-image: url(../images/search.png);
+	background-repeat: no-repeat;
+	background-position: 99999px;
+}
+.m-list-line .store .feature ul li a:hover {
+	color: #f30213;
+}
+.m-list-line .store .feature ul li a:hover i {
+	border-color: #f30213;
+}
+.goodslist {
+	position: relative;
+	height: auto;
+	margin-bottom: 20px;
+}
+.goodslist ul {
+	width: 1040px;
+	margin-right: -20px;
+}
+.goodslist ul li {
+	height: 466px;
+	width: 240px;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.goodslist ul li .gl-i-wrap {
+	width: 220px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	border: 1px solid #fff;
+	padding: 12px 9px;
+}
+.goodslist ul li .gl-i-wrap .p-img {
+	height: 220px;
+	padding: 0;
+	position: relative;
+	margin-bottom: 5px;
+}
+.goodslist ul li .gl-i-wrap .p-img a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.goodslist ul li .gl-i-wrap .p-scroll {
+	position: relative;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.goodslist ul li .gl-i-wrap .p-scroll .ps-wrap {
+	/*height: 29px;*/
+	overflow: hidden;
+}
+.goodslist ul li .gl-i-wrap .p-scroll .ps-wrap ul li {
+	float: left;
+	width: 34px;
+	height: 29px;
+	text-align: left;
+	margin-right: 0;
+}
+.goodslist ul li .gl-i-wrap .p-scroll .ps-wrap ul li a {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ddd;
+	cursor: default;
+}
+.goodslist ul li .gl-i-wrap .p-scroll .ps-wrap ul li a.curr {
+	border: 2px solid #e4393c;
+}
+.goodslist ul li .gl-i-wrap .p-scroll .ps-wrap ul li a img {
+	width: 25px;
+	height: 25px;
+}
+.goodslist ul li .gl-i-wrap .p-price {
+	position: relative;
+	line-height: 22px;
+	height: 22px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 8px;
+}
+.goodslist ul li .gl-i-wrap .p-price strong {
+	float: left;
+	margin-right: 10px;
+	color: #e4393c;
+	font-size: 20px;
+	font-weight: normal;
+}
+.goodslist ul li .gl-i-wrap .p-price strong em {
+	font-size: 16px;
+	float: left;
+}
+.goodslist ul li .gl-i-wrap .p-price strong i {
+	float: left;
+}
+.goodslist ul li .gl-i-wrap .p-name {
+	height: 40px;
+	line-height: 20px;
+}
+.goodslist ul li .gl-i-wrap .p-commit {
+	width: 100%;
+	height: 18px;
+	margin-top: -3px;
+	margin-bottom: 9px;
+	overflow: hidden;
+}
+.goodslist ul li .gl-i-wrap .p-commit strong {
+	color: #a7a7a7;
+	font-weight: normal;
+}
+.goodslist ul li .gl-i-wrap .p-commit strong a {
+	color: #646fb0;
+	font-weight: bold;
+}
+
+.goodslist ul li .gl-i-wrap .p-shop {
+	height: 18px;
+	line-height: 18px;
+	margin-top: -3px;
+	margin-bottom: 6px;
+}
+.goodslist ul li .gl-i-wrap .p-shop span {
+	display: inline-block;
+	position: relative;
+	height: 18px;
+}
+.goodslist ul li .gl-i-wrap .p-shop span a {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+	width: 122px;
+}
+.goodslist ul li .gl-i-wrap .p-shop span b {
+	background: url(../images/5bc4255bN0776eea6.png);
+	position: absolute;
+	right: -21px;
+	top: 1px;
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.goodslist ul li .gl-i-wrap .p-icons {
+	height: 16px;
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.goodslist ul li .gl-i-wrap .p-icons .icons1 {
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 3px;
+	margin-right: 3px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: #e23a3a;
+	border-radius: 2px;
+}
+.goodslist ul li .gl-i-wrap .p-icons .icons2 {
+	float: left;
+	height: 14px;
+	line-height: 14px;
+	padding: 0 3px;
+	border: 1px solid #4d88ff;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.goodslist ul li .gl-i-wrap {}

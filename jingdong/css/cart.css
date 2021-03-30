@@ -1,0 +1,418 @@
+.w {
+	width: 990px;
+	margin: 0 auto;
+}
+/*顶部*/
+.top {
+	width: 100%;
+	height: 31px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #dddddd;
+}
+.top .w1 {
+	height: 31px;
+	background-color: #cd4;
+}
+/*头部*/
+.header {
+	height: 90px;
+	background-color: white;
+	position: relative;
+}
+
+
+
+.search .form {
+	width: 326px;
+	height: 28px;
+	border: 2px solid #e2231a;
+	position: absolute;
+	left: -100px;
+	top: 25px;
+	float: right;
+	margin-top: -40px;
+}
+
+
+
+/*logo图片*/
+.logo {
+	width: 134px;
+	background-color: white;
+	height: 43px;
+	float: left;
+	position: absolute;
+	top: 20px;
+} 
+/*搜索框*/
+.search {
+	width: 326px;
+	height: 28px;
+	background-color: white;
+	float: right;
+	margin-top: 40px;
+}
+/*主要内容*/
+.content {
+
+}
+/*内容顶部*/
+.content-top {
+	width: 990px;
+	height: 60px;
+	position: relative;
+}
+.cont-top-good {
+	width: 376px;
+	height: 48px;
+	margin-top: 12px;
+	float: left;
+}
+.cont-top-good a {
+	color: #e2235d;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 48px;
+}
+/*降价*/
+.cont-top-filt {
+	height: 26px;
+	line-height: 26px;
+	font-size: 11px;
+	float: left;
+	position: absolute;
+	bottom: 17px;
+	left: 35%;
+	box-shadow: 1px 2px 8px #ccc;
+	padding: 0 10px 0 14px;
+}
+.cont-top-filt .file {
+	color: #e8235d;
+}
+.cont-top-filt .arofile {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/flow.png) no-repeat;
+	margin-left: 20px;
+	cursor: pointer;
+}
+/*地址*/
+.cont-top-adder {
+	float: right;
+	margin-top: 17px;
+	line-height: 25px;
+	font-size: 11px;
+	color: #434343;
+}
+.cont-top-adder span {
+	float: left;
+}
+.cont-top-adder .adders {
+	height: 23px;
+	border: 1px solid #cecbce;
+	float: left;
+	padding: 0 23px 0 3px;
+	position: relative;
+}
+.cont-top-adder .adders .adders-drow {
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: url(../img/59088392N8b6279bb.png) no-repeat 0 0;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+/*内容头部*/
+.content-thead {
+	width: 988px;
+	height: 42px;
+	border: 1px solid #e9e9e9;
+	border-top: 0;
+	line-height: 42px;
+	font-size: 11px;
+	background-color: #f3f3f3;
+}
+/*全选*/
+.content-thead-checked {
+	width: 132px;
+	height: 42px;
+	float: left;
+}
+.content-thead-checked .checked {
+	float: left;
+	margin: 16px 7px 0px 11px;
+
+}
+.content-thead-checked .checked input {
+	vertical-align: top;
+}
+.content-thead-checked span {
+	float: left;
+}
+/*商品*/
+.content-thead-good {
+	width: 366px;
+	float: left;
+}
+.content-thead-good span {
+	color: #434343;
+}
+/*单价*/
+.content-thead-danjia {
+	width: 142px;
+	height: 42px;
+	float: left;
+	padding-right: 40px;
+}
+.content-thead-danjia span {
+	float: right;
+	margin-right: 8px;
+}
+/*数量*/
+.content-thead-num {
+	width: 82px;
+	height: 42px;
+	text-align: center;
+	float: left;
+}
+/*小计*/
+.content-thead-xj {
+	width: 106px;
+	height: 42px;
+	float: left;
+}
+.content-thead-xj span {
+	float: right;
+	margin-right: 3px;
+}
+/*操作*/
+.content-thead-caozuo {
+	width: 120px;
+	height: 42px;
+	float: left;
+}
+.content-thead-caozuo span {
+	margin-left: 35px;
+}
+
+/*内容主体*/
+.content-tbody{
+	width: 990px;
+	margin-top: 12px;
+}
+
+/*商店*/
+.shoop {
+	height: 28px;
+}
+.shoop-check {
+	margin: 0 0 0 11px;
+	float: left;
+}
+.shoop-txt {
+	float: left;
+	font-size: 11px;
+	color: #fff;
+	background-color: #da0012;
+	height: 18px;
+	line-height: 18px;
+	padding: 0 4px;
+	margin: 5px 0 0 8px;
+}
+
+/*详细列表*/
+.tbody-list{
+	width: 988px;
+	border: 1px solid #f1f1f1;
+	border-top: 2px solid #aaaaaa;
+}
+
+/*物品1*/
+.tbody-list .list1 {
+	width: 948px;
+	height: 118px;
+	padding-left: 40px;
+	border-top: 1px solid #c5c5c5;
+	position: relative;
+}
+/*复选框*/
+.list1 .item-checked {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+/*商品*/
+.item-good {
+	width: 300px;
+	height: 82px;
+	margin-top: 15px;
+	float: left;
+}
+.item-good .good-img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #eeeeee;
+	float: left;
+}
+.item-good .good-txt {
+	float: left;
+	margin-left: 10px;
+	font-size: 11px;
+	width: 208px;
+}
+.item-good .good-txt .good-txt1 span{
+	height: 16px;
+	line-height: 16px;
+	background-color: #e30000;
+	color: #fff;
+	padding: 0 4px;
+	float: left;
+}
+.item-good .good-txt .good-txt1 p {
+	float: left;
+	margin-left: 3px;
+	line-height: 16px;
+}
+.item-good .good-txt .good-txt1 p.jdcs2 {
+	line-height: 25px;
+}
+/*选服务*/
+.item-good .good-txt .good-serive {
+	height: 16px;
+	line-height: 16px;
+}
+.item-good .good-txt .good-serive i {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../img/xfw.png) no-repeat;
+}
+.item-good .good-txt .good-serive span {
+	color: #aaaaaa;
+	margin-left: 6px;
+	line-height: 16px;
+}
+
+/*型号*/
+.item-xh {
+	width: 130px;
+	float: left;
+	font-size: 11px;
+	margin: 20px 0 0 20px;
+}
+/*价格*/
+.item-price {
+	width: 150px;
+	padding-right: 40px;
+	float: left;
+	font-size: 11px;
+	margin-top: 20px;
+}
+.item-price span {
+	float: right;
+}
+/*数量*/
+.item-num {
+	width: 80px;
+	float: left;
+	margin-top: 15px;
+}
+.item-num .item-num1 {
+	width: 78px;
+	height: 18px;
+	border: 1px solid #cbcbcb;
+}
+.item-num .item-num1 button {
+	width: 15px;
+	height: 18px;
+	background-color: #f1f1f1;
+	border: 0;
+	float: left;
+	cursor: pointer;
+}
+.item-num .item-num1 span {
+	width: 46px;
+	height: 18px;
+	border-left: 1px solid #cbcbcb;
+	border-right: 1px solid #cbcbcb;
+	float: left;
+	text-align: center;
+	line-height: 18px;
+	font-size: 11px;
+}
+.item-num .item-num1 .btn-l {
+	color: #ccccd0;
+	cursor: not-allowed;
+}
+.item-num .item-numtxt {
+	font-size: 11px;
+	text-align: center;
+	color: #aaaaaa;
+}
+/*小计*/
+.item-xj {
+	width: 106px;
+	float: left;
+	font-size: 11px;
+	margin-top: 20px;
+}
+.item-xj b{
+	float: right;
+	font-weight: bold;
+}
+/*操作*/
+.item-cz {
+	width: 80px;
+	font-size: 11px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 11px;
+}
+.item-cz p {
+	color: #796666;
+	line-height: 20px;
+}
+.box{
+	position: relative;
+	border: 1px solid #666666;
+	width: 988px;
+	height: 50px;
+}
+.box .left{
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 20px;
+	text-align: center;
+	top: 14px;
+}
+.box .right{
+	position: relative;
+	float: right;
+}
+.box .right div	{
+	float: right;
+}
+.box .right .btn{
+	position: relative;
+	width: 90px;
+	height: 50px;
+	background: red;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 50px;
+	color: white;
+}
+.box .right div span{
+	position: relative;
+	float: left;
+	line-height: 20px;
+}
+.box .right .btn2{
+	position: relative;
+	float: left;
+	width: 200px;
+}
