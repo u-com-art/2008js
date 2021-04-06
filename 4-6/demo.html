@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let person={
+        //     name:"lisi",
+        //     age:22,
+        //     sex:"M"
+        // }
+        // console.log(person)
+        
+    //  class person{
+         //构造器方法  实例化对象时会自动调用
+//          constructor(name,age){
+//              this.name=name
+//              this.age =age
+//          }
+//          say(){
+//              console.log(this.name,this.age)
+//          }
+//      }
+// //通过new +class实例化对象
+// let p1=new Person("wangwu",33)
+class Person{
+    constructor(name,age){
+        this.name=name
+        this.age=age
+    }
+    //静态属性
+    static number=0
+    //静态方法
+    static say(){
+        console.log("我是奥特曼")
+    }
+    //实例的方法
+    eat(){
+        console.log(this.name,"我相信光")
+    }
+}
+Person.say()//访问静态方法
+console.log(Person.number)//访问静态属性
+let p1=new Person("zhangsan",22)
+p1.eat()
+    </script>
+</body>
+</html>
